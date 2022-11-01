@@ -22,7 +22,7 @@ export default function Navbar() {
 
       };
 
-      axios.post("https://blogapp-gdl2.onrender.com/user/getuser", userId)
+      axios.post("https://blogapp2.onrender.com/user/getuser", userId)
         .then((response) => {
 
           const username = response.data.message[0].name;

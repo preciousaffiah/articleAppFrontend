@@ -28,7 +28,7 @@ export default function Register() {
 
     try {
 
-      axios.post("https://blogapp-gdl2.onrender.com/user/register", userData)
+      axios.post("https://blogapp2.onrender.com/user/register", userData)
         .then((response) => {
           // const result = response.data;
           const result = response.data.message._id;

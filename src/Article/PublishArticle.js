@@ -32,7 +32,7 @@ export default function PublishArticle() {
 
       try {
 
-        axios.post("https://blogapp-gdl2.onrender.com/user/publisharticle/", articleData)
+        axios.post("https://blogapp2.onrender.com/user/publisharticle/", articleData)
           .then((response) => {
 
             navigate("/")

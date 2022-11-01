@@ -17,7 +17,7 @@ export default function ArticlePost() {
  
                  const articleid = window.location.pathname.split('/').pop();
                 
-                 axios.get(`https://blogapp-gdl2.onrender.com/user/uniquearticle/${articleid}`)
+                 axios.get(`https://blogapp2.onrender.com/user/uniquearticle/${articleid}`)
                    .then((response) => {
                      const status = response.data.status;
                     if (status == "FAILED") {
@@ -33,7 +33,7 @@ export default function ArticlePost() {
                     
                         try {
     
-                            axios.post("https://blogapp-gdl2.onrender.com/user/getuser/", userId)
+                            axios.post("https://blogapp2.onrender.com/user/getuser/", userId)
                             .then((response) => {
                 
                                 const authorDetails = response.data.message[0];

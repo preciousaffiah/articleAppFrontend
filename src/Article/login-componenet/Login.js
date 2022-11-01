@@ -27,7 +27,7 @@ export default function Login() {
 
     try {
 
-      axios.post("https://blogapp-gdl2.onrender.com/user/login", userData)
+      axios.post("https://blogapp2.onrender.com/user/login", userData)
         .then((response) => {
 
           if (response.data.status == "EMAIL") {
@@ -63,7 +63,7 @@ export default function Login() {
   return (
     <div>
       <div class="h">
-        <div class="img js-fullheight bimage">
+        <div class="img js-fullheight bimage h-auto">
           <div class="container">
             <div class="row align-items-center m">
               <div class="col-md-12">

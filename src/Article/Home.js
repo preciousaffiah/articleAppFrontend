@@ -14,7 +14,7 @@ export default function Home() {
    useEffect(() => {
     try {
 
-        axios.get("https://blogapp-gdl2.onrender.com/user/allArticles/")
+        axios.get("https://blogapp2.onrender.com/user/allArticles/")
           .then((response) => {
             const allArticles = response.data.message;
             getArticles(allArticles);

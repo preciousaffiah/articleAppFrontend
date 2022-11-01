@@ -42,7 +42,7 @@ export default function GLogin() {
 
         try {
 
-            axios.post("https://blogapp-gdl2.onrender.com/user/googlelogin", userData)
+            axios.post("https://blogapp2.onrender.com/user/googlelogin", userData)
                 .then((response) => {
 
                     if (response.data.status == "EMAIL") {
@@ -50,7 +50,7 @@ export default function GLogin() {
                         console.log("email DOES NOT exists");
                         try {
 
-                            axios.post("https://blogapp-gdl2.onrender.com/user/googleregister", userData)
+                            axios.post("https://blogapp2.onrender.com/user/googleregister", userData)
                                 .then((response) => {
 
                                     const result = response.data.message._id;
