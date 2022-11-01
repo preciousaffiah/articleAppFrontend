@@ -38,14 +38,14 @@ export default function Navbar() {
     <div>
       <nav class="navbar">
         <div class="container" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 welcome">
             <li class="nav-item active">
-              <a class="navbar-brand whitey" href="#">My Blog!!</a>
+              <a class="navbar-brand whitey welcome" href="#">My Blog!!</a>
             </li>
           </ul>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="navbar-brand cf welcome" href="#">{cookies.id ? <>Welcome {username}!!</> : <></>}</a>
+              <a class="navbar-brand cf" href="#">{cookies.id ? <>Welcome {username}!!</> : <></>}</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 hi">
