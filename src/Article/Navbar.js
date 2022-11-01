@@ -45,7 +45,7 @@ export default function Navbar() {
           </ul>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="navbar-brand cf" href="#">{cookies.id ? <>Welcome {username}!!</> : <></>}</a>
+              <a class="navbar-brand cf" href="#">{cookies.id ? <>{username}!!</> : <></>}</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 hi">
