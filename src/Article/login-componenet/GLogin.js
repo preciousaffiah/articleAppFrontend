@@ -15,7 +15,7 @@ export default function GLogin() {
     useEffect(() => {
         /*global google*/
         google.accounts.id.initialize({
-            client_id:"474319155200-ijtfjahjjbkthu6928kpsf71ah6sunbu.apps.googleusercontent.com",
+            client_id:"569996366555-vu0hu6kqp8tugv4mfe7eochi6u2in3p1.apps.googleusercontent.com",
             callback: handlecallbackresponse
         });
 
